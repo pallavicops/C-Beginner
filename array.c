@@ -13,5 +13,6 @@ void main()
         sum = sum + array1[i];
     }
 
+    //show the sum
     printf("%d", sum);
 }
