@@ -24,5 +24,5 @@ int main()
     else if (amt > 400)
         amt = amt + 0.15 * amt;
 
-    printf("electricity charge for the user %s=%f", name, amt);
+    printf("electricity charge for the user %s = %f", name, amt);
 }
