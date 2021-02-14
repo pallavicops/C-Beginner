@@ -7,3 +7,4 @@ void main(){
 
     (a>b)?printf("A is big"):printf("B is big");
 }
+
