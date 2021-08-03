@@ -5,8 +5,8 @@ int main()
     float amt;
     char name[10];
     printf("enter the of the user name\n");
-    // scanf("%s", &name);
-    gets(name);
+    scanf("%s", &name);
+    //gets(name);
     printf("enter the munber of unit\n ");
     scanf("%d", &unit);
 
@@ -25,4 +25,6 @@ int main()
         amt = amt + 0.15 * amt;
 
     printf("electricity charge for the user %s = %f", name, amt);
+
+    return 0;
 }
